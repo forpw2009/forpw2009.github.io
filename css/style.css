@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-  background-color: #fff;
+  background-color: #000;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -10,7 +10,7 @@ body {
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
-  background-color: #fff;
+  background-color: #000;
 }
 
 p {
