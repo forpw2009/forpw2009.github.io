@@ -372,7 +372,7 @@ dl dt {
 
                                 table th {
                                   color: #666666;
-                                  background-color: #fdfdfd; }
+                                  background-color: #080808; }
 
                                   tr th {
                                     border-bottom-width: 1px;
@@ -391,7 +391,7 @@ dl dt {
                                           font-weight: bold; }
 
                                           table tbody > tr:nth-child(odd) > td, table tbody > tr:nth-child(odd) > th {
-                                            background-color: #f9f9f9; }
+                                            background-color: #080808; }
 
                                             .gist {
                                               font-size: 12px; }

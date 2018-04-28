@@ -646,6 +646,7 @@ a.btn {
   visibility: hidden;
   width: 100px;
   float: right;
+  color: #000;
 }
 
 .page_404 {
