@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0);
   font-family: 'PingHei', 'PingFang SC', Helvetica Neue, 'Work Sans', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;
   font-size: 15px;
   width: 100%;
@@ -392,7 +392,7 @@ a:hover, a:active {
   position: absolute;
   width: 100%;
   padding-bottom: 20px;
-  background: #fff;
+  background: #000;
 }
 .footer a {
   color: #A6A6A6;
