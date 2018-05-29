@@ -128,7 +128,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img2" src="/css/images/home-bg.jpg">
+                    <img id="carousel-img2" src="/css/images/home_3.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -149,7 +149,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img3" src="/css/images/home_1.jpeg">
+                    <img id="carousel-img3" src="/css/images/home_4.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -170,7 +170,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img4" src="https://source.unsplash.com/collection/954550/1920x1080">
+                    <img id="carousel-img4" src="/css/images/home_5.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -184,6 +184,27 @@
                         } else {
                           imageTag4.style.height = document.body.clientHeight + "px";
                           imageTag4.style.marginLeft = -(document.body.clientHeight * img4.width / img4.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img5" src="https://source.unsplash.com/collection/954550/1920x1080">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img5 = new Image();
+                      var imageTag5 = document.getElementById("carousel-img5");
+                      img5.src = imageTag5.src;
+                      img5.onload=function(){
+                        if (img5.width / img5.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag5.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag5.style.height = document.body.clientHeight + "px";
+                          imageTag5.style.marginLeft = -(document.body.clientHeight * img5.width / img5.height - document.body.clientWidth) / 2 + "px";
                         }
                       };
                   </script>
