@@ -18,7 +18,7 @@
 <meta property="og:url" content="http://lpssblog.cf/2018/05/22/onedrive_cloud/index.html">
 <meta property="og:site_name" content="LPSS Blog">
 <meta property="og:description" content="最近闲来无事，看到TG群一个大佬共享一个云盘，私有的，简洁清爽， 于是虚心学习了一波，自己建成功喜欢的小伙伴也可以自己搭建， 完全免费，往下看教程就好啦o(^▽^)o 搭建效果链接forpw2009.tk">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://lpssblog.cf/bgimg/one_1.png">
 <meta property="og:image" content="http://lpssblog.cf/bgimg/one_2.jpg">
 <meta property="og:image" content="http://lpssblog.cf/bgimg/one_3.png">
@@ -128,15 +128,15 @@
             <div class="navbar-collapse collapse">
               <ul class="hnav navbar-nav">
                 
-                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                  <li> <a class="main-nav-link" href="/">首页</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/archives">Archives</a> </li>
+                  <li> <a class="main-nav-link" href="/archives">归档</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/categories">Categories</a> </li>
+                  <li> <a class="main-nav-link" href="/categories">分类</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                  <li> <a class="main-nav-link" href="/tags">标签</a> </li>
                 
-                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                  <li> <a class="main-nav-link" href="/about">关于</a> </li>
                 
                   <li><div id="search-form-wrap">
 
@@ -148,7 +148,7 @@
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..." />
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -160,11 +160,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(无标题)',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
@@ -213,7 +213,7 @@
       
 	<a class="article-views">
 	<span id="busuanzi_container_page_pv">
-		PV:<span id="busuanzi_value_page_pv"></span>
+		阅读量<span id="busuanzi_value_page_pv"></span>
 	</span>
 	</a>
 
@@ -328,7 +328,7 @@
 <script>
 var a = new Donate({
   title: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!', // 可选参数，打赏标题
-  btnText: 'Donate', // 可选参数，打赏按钮文字
+  btnText: '打赏支持', // 可选参数，打赏按钮文字
   el: document.getElementById('donation_div'),
   wechatImage: 'https://lpssblog.cf/bgimg/lpsswx.jpg',
   alipayImage: 'https://lpssblog.cf/bgimg/lpss.jpg'
@@ -372,7 +372,7 @@ var a = new Donate({
   
   
     <a href="/2018/04/30/Shadowrocket/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title">【转载】Shadowrocket（小火箭）使用教程</div>
     </a>
   
@@ -385,7 +385,7 @@ var a = new Donate({
 
   <aside id="toc-sidebar">
     <div id="toc" class="toc-article">
-    <strong class="toc-title">Contents</strong>
+    <strong class="toc-title">文章目录</strong>
     
         <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#功能"><span class="nav-number">1.</span> <span class="nav-text">功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#申请微软onedrive5T空间"><span class="nav-number">2.</span> <span class="nav-text">申请微软onedrive5T空间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#申请免费域名，freenom网站进行申请"><span class="nav-number">3.</span> <span class="nav-text">申请免费域名，freenom网站进行申请</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#免费域名使用cloudflare进行托管"><span class="nav-number">4.</span> <span class="nav-text">免费域名使用cloudflare进行托管</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#申请免费PHP空间，搭建网盘网页版"><span class="nav-number">5.</span> <span class="nav-text">申请免费PHP空间，搭建网盘网页版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小结"><span class="nav-number">6.</span> <span class="nav-text">小结</span></a></li></ol>
     
@@ -405,8 +405,8 @@ var a = new Donate({
 	      
 	      
     		<p class="busuanzi_uv">
-				UV : <span id="busuanzi_value_site_uv"></span> |  
-				PV : <span id="busuanzi_value_site_pv"></span>
+				访客数 : <span id="busuanzi_value_site_uv"></span> |  
+				访问量 : <span id="busuanzi_value_site_pv"></span>
 		    </p>
   		   
 		</div>
